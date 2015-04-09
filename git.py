@@ -7,7 +7,7 @@
 # Step 1:
 #       Setup the channel and integration first, then get the url for the new service of GIT.
 # Step 2:
-#       rename the post-commit.sample (under the [git repository folder]\.git\hooks) with the new name as it say.
+#       rename the post-receive.sample (under the [git repository folder]\.git\hooks) with the new name as it say.
 #       add your code to excute the git.py
 # Step 3: 
 #       replace the specail url with the one come from Lesschat.
