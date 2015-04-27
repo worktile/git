@@ -9,6 +9,9 @@
 # Step 2:
 #       rename the post-receive.sample (under the [git repository folder]\.git\hooks) with the new name as it say.
 #       add your code to excute the git.py
+#       NOTE: 1. The names of hooks are different in the different version of git, please use the most similar one if there isn't post-receive.sample
+#             2. Please give the executable permissions to the post-receive and the git.py
+#             3. When you excute git.py in post-receive, please use the full path of git_34.py, because git run the hooks in others path.
 # Step 3: 
 #       replace the specail url with the one come from Lesschat.
 # Step 4:
